@@ -1,0 +1,23 @@
+{
+  "name": "node-mvc-demo",
+  "version": "1.0.0",
+  "description": "A simple Express.js web application to demonstrate core Stormpath functionality.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "customdata",
+    "web app"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.14.2",
+    "client-sessions": "^0.7.0",
+    "ejs": "^2.5.1",
+    "express": "^4.13.3"
+  }
+}

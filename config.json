@@ -1,0 +1,14 @@
+{
+  "development": 
+  {
+    "port": 3000,
+    "mongodb": "mongodb://localhost:27017/platerate",
+    "errorHandlerOptions": {"dumpExceptions": true, "showStack": true}
+  },
+  "production": 
+   {
+    "port": 8080,
+    "mongodb": "mongodb://admin:admin@123.mlab.com:123/productiondb",
+    "errorHandlerOptions": {"dumpExceptions": false, "showStack": false}
+  }
+}
